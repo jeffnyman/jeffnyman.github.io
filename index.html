@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" data-mode="home">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeff Nyman</title>
+  <meta name="description" content="Jeff Nyman: test solution developer. Quality engineering projects, retro game players, and interactive fiction interpreters.">
+  <meta property="og:title" content="Jeff Nyman">
+  <meta property="og:description" content="Quality engineering by day. Retro games and Z-machines by night.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jeffnyman.github.io/">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Space+Grotesk:wght@400;500;700&family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="backdrop" aria-hidden="true">
+    <div class="globe globe-1"></div>
+    <div class="globe globe-2"></div>
+    <div class="globe globe-3"></div>
+    <div class="scanlines"></div>
+  </div>
+
+  <a class="skip-link" href="#content">Skip to projects</a>
+
+  <header class="hero">
+    <p class="eyebrow">github.com/jeffnyman</p>
+    <h1 class="name">Jeff Nyman</h1>
+    <p class="typed-line">
+      I <span class="typed" aria-live="off"
+        data-words='["build test solutions.", "teach Playwright and Cypress.", "evaluate LLMs.", "write Z-machine interpreters.", "resurrect retro games.", "test the things I build."]'></span><span class="caret" aria-hidden="true"></span>
+    </p>
+    <p class="bio">
+      I specialize in test solution development, but I create projects based on the
+      technologies I have to test. Being a good tester means being a good developer.
+    </p>
+    <nav class="links" aria-label="Elsewhere">
+      <a href="https://github.com/jeffnyman" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.7 1.7.3 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5Z"/></svg>
+        GitHub
+      </a>
+      <a href="https://testerstories.com" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h12l4 4v12H4V4Zm2 2v12h12V9h-3V6H6Zm2 5h8v1.6H8V11Zm0 3h8v1.6H8V14Z"/></svg>
+        Tester Stories
+      </a>
+      <a href="https://www.linkedin.com/in/jeffnyman/" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9.5h4V21H3V9.5Zm6.5 0h3.8v1.6h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.2c0-1.3 0-2.9-1.8-2.9s-2 1.4-2 2.8V21h-4V9.5Z"/></svg>
+        LinkedIn
+      </a>
+    </nav>
+  </header>
+
+  <section class="doors" aria-label="Choose a side">
+    <div class="door-grid">
+      <a class="door door-work" href="#work" data-target="work" aria-controls="content">
+        <span class="door-kicker">Work</span>
+        <span class="door-title">Quality Engineering</span>
+        <span class="door-text">Playwright, Cypress, test frameworks, apps to practice against, and AI evaluation.</span>
+        <span class="door-cta">Enter <span aria-hidden="true">&rarr;</span></span>
+      </a>
+      <a class="door door-play" href="#play" data-target="play" aria-controls="content">
+        <span class="door-kicker">Play</span>
+        <span class="door-title">Retro &amp; Interactive Fiction</span>
+        <span class="door-text">Retro game players, Z-machine interpreters, Inform tooling, and games you can play in the browser.</span>
+        <span class="door-cta">Insert coin <span aria-hidden="true">&rarr;</span></span>
+      </a>
+    </div>
+    <nav class="view-switch" aria-label="Project views">
+      <a href="#" data-target="home">Home</a>
+      <a href="#work" data-target="work">Work</a>
+      <a href="#play" data-target="play">Play</a>
+      <a href="#all" data-target="all">All repositories</a>
+    </nav>
+  </section>
+
+  <main id="content" class="content" tabindex="-1">
+    <!-- Rendered by js/main.js -->
+  </main>
+
+  <footer class="footer">
+    <p>
+      <span class="footer-work">Built by hand. No frameworks were harmed.</span>
+      <span class="footer-play">&gt; YOU ARE STANDING AT THE BOTTOM OF THE PAGE. THERE IS NOTHING HERE.</span>
+    </p>
+    <p class="footer-meta">
+      <a href="https://github.com/jeffnyman/jeffnyman.github.io" target="_blank" rel="noopener">Source for this page</a>
+      &middot; <span id="data-source">Repository data from snapshot</span>
+    </p>
+  </footer>
+
+  <noscript>
+    <p class="noscript">This page lists projects with JavaScript. You can browse them directly at
+      <a href="https://github.com/jeffnyman?tab=repositories">github.com/jeffnyman</a>.</p>
+  </noscript>
+
+  <script src="js/repos-snapshot.js"></script>
+  <script src="js/projects.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
